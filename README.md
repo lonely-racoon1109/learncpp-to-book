@@ -1,10 +1,8 @@
-# LearnCPP to PDF Book
+# learncpp.com to PDF Book
 
 A simple Python script that scrapes webpages from **learncpp.com** and converts them into a single **PDF book** for offline reading, easy access, and distraction-free learning.
 
-This project was created to practice **web scraping** while solving a personal problem: turning valuable online content into a portable, readable format without requiring an internet connection.
-
----
+This project was created to practice web scraping while making valuable content available for offline use.
 
 ## 📖 How It Works
 
@@ -14,17 +12,13 @@ This project was created to practice **web scraping** while solving a personal p
 - Overrides website CSS to improve readability and formatting
 - Converts the final HTML into a PDF using **WeasyPrint**
 
----
-
 ## 🛠 Requirements
 
 - Python **3.9+** (recommended)
 - `pip`
 - Linux / macOS  
   (Windows users can use **WSL** or **Git Bash**)
-
----
-
+  
 ## 📁 Project Structure
 
 ```text
@@ -32,7 +26,7 @@ project/
 ├── script.py
 ├── requirements.txt
 └── README.md
-
+```
 ## Setup Instructions
 
 ### 1. Clone the repository
@@ -89,5 +83,6 @@ All content belongs to learncpp.com and its respective authors.
 
 ## License
 
-This project is open-source and intended for learning and experimentation.
+This project is licensed under the MIT License and intended for learning and experimentation..  
+See the [LICENSE](LICENSE) file for details.
 
